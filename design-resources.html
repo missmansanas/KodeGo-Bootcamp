@@ -15,8 +15,8 @@
             padding: 3rem 0 2rem;
         }
 
-        div {
-            padding: 0.5rem 0;
+        div.container, div.container-fluid {
+            padding: 2rem 0;
         }
 
 
@@ -25,37 +25,38 @@
 <body>
     <div class="container-fluid bg-warning" id="header">
         <h1>Design & Coding Resources</h1>
-        <p>Resize this responsive page to see the effect!</p>
+        <p>This page is designed with Boostrap!</p>
     </div>
 
     <div class="container">
         <div class="row">
+            <h2 class="mb-4">Why use design & dev resources?</h2>
             <div class="col">
-                <h2>Better Productivity</h2>
+                <h4>Better Productivity</h4>
                 <p>Design and development resources help you to design, develop and deliver your projects faster. Quicker work means happier clients!</p>
             </div>
                 
             <div class="col">
-                <h2>Enhanced User Experience</h2>
+                <h4>Enhanced User Experience</h4>
                 <p>Every tool out there is meant to make your project better, especially for your users. Make sure all end users can enjoy the output you create.</p>
             </div>
 
             <div class="col">
-                <h2>Improved Creativity</h2>
+                <h4>Improved Creativity</h4>
                 <p>Many say maximizing tools and resources lessens your creativity, but the opposite is true! With more tools at your disposal, you can focus on creating and innovating.</p>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center justify-content-evenly">
             <h2>Top Recommended Resources</h2>
                 <div class="col-3">
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title mb-2">GitHub</h4>
-                            <h6 class="card-subtitle mb-3 text-success">Best for hosting and collaborative coding!</h6>
-                            <p class="card-text">GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+                            <h6 class="card-subtitle mb-3 text-secondary">Best for hosting and collaborative coding!</h6>
+                            <p class="card-text">GitHub is a code hosting platform for version control and collaboration.</p>
                             <a href="https://github.com/" class="btn btn-success">Try now</a>
                         </div>
                     </div>
@@ -65,7 +66,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Iconic</h4>
-                            <h6 class="card-subtitle mb-3 text-success">Best for minimalist design assets!</h6>
+                            <h6 class="card-subtitle mb-3 text-secondary">Best for minimalist design assets!</h6>
                             <p class="card-text">Free do-what-you-want pixel-perfect icons for all your design and development projects.</p>
                             <a href="https://iconic.app/" class="btn btn-success">Try now</a>
                         </div>
@@ -76,9 +77,20 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Coolors</h4>
-                            <h6 class="card-subtitle mb-3 text-success">Best for beautiful design theory.</h6>
-                            <p class="card-text">Coolors lets you create the perfect color palette or get inspired by thousands of beautiful color schemes by other users.</p>
+                            <h6 class="card-subtitle mb-3 text-secondary">Best for beautiful design theory.</h6>
+                            <p class="card-text">Coolors lets you browse beautiful color schemes by other users or make your own.</p>
                             <a href="https://coolors.co/" class="btn btn-success">Try now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Color Contrast Checker</h4>
+                            <h6 class="card-subtitle mb-3 text-secondary">Best for basic color readability.</h6>
+                            <p class="card-text">Enter your color combinations to check whether they pass conformance.</p>
+                            <a href="https://accessibleweb.com/color-contrast-checker/" class="btn btn-success">Try now</a>
                         </div>
                     </div>
                 </div>
@@ -109,6 +121,26 @@
                 <td>Glitch</td>
                 <td>Glitch is the fastest way to go from idea to shipped project. Just start writing your HTML, CSS and JavaScript, and your project is live from the first line.</td>
                 <td><a href="https://glitch.com/">Try now</a></td>
+            </tr>
+            <tr>
+                <td>GitHub</td>
+                <td>GitHub is a code hosting platform for version control and collaboration.</td>
+                <td><a href="https://github.com/">Try now</a></td>
+            </tr>
+            <tr>
+                <td>Iconic</td>
+                <td>Free do-what-you-want pixel-perfect icons for all your design and development projects.</td>
+                <td><a href="https://iconic.app/">Try now</a></td>
+            </tr>
+            <tr>
+                <td>Coolors</td>
+                <td>Coolors lets you browse beautiful color schemes by other users or make your own.</td>
+                <td><a href="https://coolors.co/">Try now</a></td>
+            </tr>
+            <tr>
+                <td>Color Contrast Checker</td>
+                <td>Enter your color combinations to check whether they pass conformance.</td>
+                <td><a href="https://accessibleweb.com/color-contrast-checker/">Try now</a></td>
             </tr>
             <tr>
                 <td>PurgeCSS</td>
